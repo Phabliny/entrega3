@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class Controlador {
-    @Autowired 
+    @Autowired  
     UsuarioRepository repo;
 
     @RequestMapping("/usuarios")
